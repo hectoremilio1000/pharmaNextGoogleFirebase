@@ -1,9 +1,9 @@
-import BannerPortada from '@/components/Promociones/BannerPortada'
-import Image from 'next/image'
+import BannerPortada from "@/components/Promociones/BannerPortada";
+import Image from "next/image";
 import Head from "next/head";
-import OfertaTime from '@/components/Promociones/OfertaTime';
-import ProductList from '@/components/ProductList/ProductList';
-import Beneficios from '@/components/Beneficios/Beneficios';
+import OfertaTime from "@/components/Promociones/OfertaTime";
+import ProductList from "@/components/ProductList/ProductList";
+import Beneficios from "@/components/Beneficios/Beneficios";
 
 export default function Home() {
   return (
@@ -47,8 +47,8 @@ export default function Home() {
       </Head>
       <BannerPortada />
       <OfertaTime />
-      <Beneficios/>
-      <ProductList/>
-   </>
-  )
+      <Beneficios />
+      <ProductList />
+    </>
+  );
 }
